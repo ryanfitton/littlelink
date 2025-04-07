@@ -1,0 +1,18 @@
+/*
+* Custom LitleLink CSS
+* https://ryanfitton.co.uk
+*/
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button-alt {
+	--button-text:#FFFFFF;
+	--button-background:#292929;
+	--button-border:1px solid #FFFFFF;
+}
+
+.button-keybase {
+	--button-text:#FFFFFF;
+	--button-background:#df611d;
+	--button-border:1px solid transparent;
+}
