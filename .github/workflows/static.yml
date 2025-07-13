@@ -65,6 +65,7 @@ jobs:
     needs: purge-cache
     steps:
       - uses: actions/checkout@v4.2.2
+      - run: mkdir -p ${{ github.workspace }}/tmp/artifacts
       - name: Lighthouse
         uses: foo-software/lighthouse-check-action@v12.0.1
         with:
