@@ -58,7 +58,7 @@ jobs:
           cf_auth: ${{ secrets.CLOUDFLARE_AUTH_KEY }}
 
   # Run Google Lighthouse check after deployment
-  lighthouuse-check:
+  lighthouse-check:
     environment:
       name: github-pages
     runs-on: ubuntu-latest
